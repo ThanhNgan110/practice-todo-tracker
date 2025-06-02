@@ -1,23 +1,16 @@
 // import Button from '../../components/Button';
+import Input from '../../components/Input';
 
 const Home = () => {
   return (
     <>
-      {/* <Button type="button" variant="outline">
-        Sign out
-      </Button>
-      <Button type="button" variant="secondary">
-        Delete
-      </Button>
-      <Button type="button" variant="primary">
-        Close
-      </Button>
-      <Button type="button" variant="success">
-        Open
-      </Button>
-      <Button type="button" variant="close">
-        Close
-      </Button> */}
+      <Input type="text" name="ten" placeholder="Enter your name" />
+      <Input
+        className="input-search"
+        type="text"
+        name="ten"
+        placeholder="Enter your name"
+      />
     </>
   );
 };

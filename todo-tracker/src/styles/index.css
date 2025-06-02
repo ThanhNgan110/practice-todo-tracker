@@ -14,6 +14,9 @@
   --color-status-close-1: #138496;
   --color-status-close-2: #117a8b;
   --color-overlay-dark: rgba(0, 0, 0, 0.2);
+  --color-border: #80bdff;
+
+  --shadow-input: 0 0 6px 2px #80bdff;
 }
 
 @layer components {
@@ -22,5 +25,19 @@
     color: var(--color-white);
     font-size: var(--text-base);
     background-color: var(--color-white);
+  }
+
+  .input {
+    border: 1px solid #ced4da;
+    outline: none;
+  }
+
+  .input:focus {
+    box-shadow: var(--shadow-input);
+    border-color: var(--color-border);
+  }
+
+  .input-search {
+    max-width: 200px;
   }
 }
