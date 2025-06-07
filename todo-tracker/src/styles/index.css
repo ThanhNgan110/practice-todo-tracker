@@ -16,7 +16,7 @@
   --color-overlay-dark: rgba(0, 0, 0, 0.2);
   --color-border: #80bdff;
 
-  --shadow-input: 0 0 6px 2px #80bdff;
+  --shadow-sm: 0 0 6px 2px #80bdff;
 }
 
 @layer components {
@@ -33,7 +33,7 @@
   }
 
   .input:focus {
-    box-shadow: var(--shadow-input);
+    box-shadow: var(--shadow-sm);
     border-color: var(--color-border);
   }
 

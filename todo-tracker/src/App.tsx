@@ -3,7 +3,6 @@ function App() {
   return (
     <>
       <Home />
-      <div className="text-primary">Custom Rounded</div>
     </>
   );
 }

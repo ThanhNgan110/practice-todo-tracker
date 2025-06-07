@@ -1,15 +1,16 @@
 import MenuItem from './MenuItem';
 
 type SelectProps = {
-  className: string;
+  name: string;
+  className?: string;
   onchange: () => void;
-  data: string[];
+  data: { title: string, name: string, value: string }[];
 };
 
-const Select = ({ className, onchange, data }: SelectProps) => (
-  <select className={`input ${className}`} onChange={onchange}>
+const Select = ({ name, className, onchange, data }: SelectProps) => (
+  <select name={name} className={`input ${className}`} onChange={onchange}>
     {data.map((item, index) => (
-      <MenuItem key={index} value={item} />
+      <MenuItem key={`${index}`} items={item} />
     ))}
   </select>
 );
