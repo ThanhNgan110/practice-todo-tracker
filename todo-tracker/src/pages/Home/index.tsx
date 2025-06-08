@@ -1,6 +1,8 @@
 import Button from '../../components/Button';
 import Form from '../../components/Form';
 
+import MainFeature from '../../components/MainFeature';
+
 const Home = () => {
   return (
     <>
@@ -14,10 +16,11 @@ const Home = () => {
       <main className="flex justify-center">
         <div className="sm:container">
           <section className="text text-4xl text-center mt-14 mb-20">
-            <h1>ISSUE TRACKER</h1>
+            <h1 className="font-poppins text-[32px]">ISSUE TRACKER</h1>
           </section>
           <section>
             <Form />
+            <MainFeature />
           </section>
         </div>
       </main>

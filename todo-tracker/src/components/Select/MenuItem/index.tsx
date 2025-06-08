@@ -9,6 +9,8 @@ const MenuItem = ({ items }: ItemOption) => {
       return <option value={value}>{name}</option>;
     case 'severity':
       return <option value={value}>{name}</option>;
+    case 'orderby':
+      return <option value={value}>{name}</option>;
   }
 };
 

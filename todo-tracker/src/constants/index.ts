@@ -8,3 +8,9 @@ export const OPTIONS_SEVERITY = [
   { title: 'severity', name: 'Medium', value: 'medium' },
   { title: 'severity', name: 'High', value: 'high' },
 ];
+
+export const OPTIONS_ORDERBY = [
+  { title: 'orderby', name: 'Choose...', value: '' },
+  { title: 'orderby', name: 'ASC', value: 'ASC' },
+  { title: 'orderby', name: 'DESC', value: 'desc' },
+];

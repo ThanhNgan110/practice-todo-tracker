@@ -1,7 +1,7 @@
 @import 'tailwindcss';
 
 @theme {
-  --font-display: 'Poppins';
+  --font-poppins: Poppins, sans-serif;
 
   --color-primary: #007bff;
   --color-secondary: #dc3545;
@@ -25,6 +25,12 @@
     color: var(--color-white);
     font-size: var(--text-base);
     background-color: var(--color-white);
+  }
+
+  .btn-list-issue {
+    font-size: 1.4rem;
+    padding: 10px 0;
+    min-width: 58px;
   }
 
   .input {
