@@ -3,15 +3,9 @@ type ItemOption = {
 };
 
 const MenuItem = ({ items }: ItemOption) => {
-  const { title, name, value } = items;
-  switch (title) {
-    case 'author':
-      return <option value={value}>{name}</option>;
-    case 'severity':
-      return <option value={value}>{name}</option>;
-    case 'orderby':
-      return <option value={value}>{name}</option>;
-  }
+  const { name, value } = items;
+
+  return <option value={value}>{name}</option>;
 };
 
 export default MenuItem;
