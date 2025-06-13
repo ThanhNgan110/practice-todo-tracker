@@ -15,8 +15,18 @@
   --color-status-close-2: #117a8b;
   --color-overlay-dark: rgba(0, 0, 0, 0.2);
   --color-border: #80bdff;
+  --color-ghost: #ced4da;
+  --color-alabaster: #f7f7f7;
+  --color-pale-sky: #6c757d;
 
   --shadow-sm: 0 0 6px 2px #80bdff;
+
+  --breakpoint-*: initial;
+  --breakpoint-sm: 100%;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-2xl: 1400px;
 }
 
 @layer components {
